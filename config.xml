@@ -29,16 +29,21 @@
         <allow-intent href="itms-apps:*" />
         <preference name="BackupWebStorage" value="none" />
     </platform>
-
     <access origin="*" />
     <allow-navigation href="*" />
     <allow-intent href="*" />
+    <universal-links>
+        <host name="workz.page.link/qL6j" scheme="https" />
+        <host name="workz-a9334.firebaseapp.com" scheme="https">
+            <path url="/__/auth/callback" />
+        </host>
+    </universal-links>
+    <engine name="ios" spec="^4.5.5" />
     <plugin name="cordova-plugin-dialogs" spec="^2.0.1" />
     <plugin name="cordova-plugin-console" spec="^1.1.0" />
     <plugin name="cordova-plugin-customurlscheme" spec="^4.3.0">
         <variable name="URL_SCHEME" value="com.workz.none" />
     </plugin>
-    <plugin name="cordova-universal-links-plugin" spec="^1.2.1" />
     <plugin name="cordova-plugin-browsertab" spec="^0.2.0" />
     <plugin name="cordova-plugin-inappbrowser" spec="^3.0.0" />
     <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
@@ -46,12 +51,6 @@
     <plugin name="cordova-plugin-globalization" spec="^1.11.0" />
     <plugin name="cordova-plugin-device" spec="^2.0.2" />
     <plugin name="cordova-plugin-buildinfo" spec="^2.0.2" />
-    <engine name="browser" spec="^5.0.4" />
-    <engine name="ios" spec="^4.5.5" />
-    <universal-links>
-        <host name="workz.page.link/qL6j" scheme="https" />
-        <host name="workz-a9334.firebaseapp.com" scheme="https">
-            <path url="/__/auth/callback" />
-        </host>
-    </universal-links>
+    <engine name="browser" spec="~5.0.4" />
+    <plugin name="cordova-universal-links-plugin" spec="^1.2.1" />
 </widget>

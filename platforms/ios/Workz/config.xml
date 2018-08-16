@@ -60,6 +60,12 @@
     <allow-intent href="geo:*" />
     <access origin="*" />
     <allow-intent href="*" />
+    <universal-links>
+        <host name="workz.page.link/qL6j" scheme="https" />
+        <host name="workz-a9334.firebaseapp.com" scheme="https">
+            <path url="/__/auth/callback" />
+        </host>
+    </universal-links>
     <resource-file src="GoogleService-Info.plist" />
     <allow-intent href="itms:*" />
     <allow-navigation href="*" />

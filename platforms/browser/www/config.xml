@@ -17,6 +17,12 @@
     <access origin="*" />
     <allow-navigation href="*" />
     <allow-intent href="*" />
+    <universal-links>
+        <host name="workz.page.link/qL6j" scheme="https" />
+        <host name="workz-a9334.firebaseapp.com" scheme="https">
+            <path url="/__/auth/callback" />
+        </host>
+    </universal-links>
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="BackupWebStorage" value="local" />

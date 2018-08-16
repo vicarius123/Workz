@@ -49,6 +49,12 @@
     <access origin="*" />
     <allow-navigation href="*" />
     <allow-intent href="*" />
+    <universal-links>
+        <host name="workz.page.link/qL6j" scheme="https" />
+        <host name="workz-a9334.firebaseapp.com" scheme="https">
+            <path url="/__/auth/callback" />
+        </host>
+    </universal-links>
     <resource-file src="google-services.json" target="google-services.json" />
     <preference name="loglevel" value="DEBUG" />
     <preference name="DisallowOverscroll" value="true" />
