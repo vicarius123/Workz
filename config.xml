@@ -33,7 +33,7 @@
     <allow-navigation href="*" />
     <allow-intent href="*" />
     <universal-links>
-        <host name="workz.page.link/qL6j" scheme="https" />
+        <host name="workz.page.link" scheme="https" />
         <host name="workz-a9334.firebaseapp.com" scheme="https">
             <path url="/__/auth/callback" />
         </host>
