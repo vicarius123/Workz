@@ -60,8 +60,8 @@ function onDeviceReady() {
   console.log('ready');
   universalLinks.subscribe(null, function (eventData) {
   // do some work
-  console.log('Did launch application from the link: ' + eventData.url);
-});
+    alert('Did launch application from the link: ' + eventData.url);
+  });
 universalLinks.subscribe(null, function(eventData) {
   AddDebug('Did launch application from the link: ' + eventData.url); // NEVER CALLED.
 });
