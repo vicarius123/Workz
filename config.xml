@@ -19,6 +19,7 @@
     <allow-intent href="geo:*" />
     <allow-navigation href="*" />
     <preference name="AndroidLaunchMode" value="singleInstance" />
+    <preference name="AndroidLaunchMode" value="singleTask" />
     <platform name="android">
         <resource-file src="google-services.json" target="google-services.json" />
     </platform>
@@ -27,13 +28,12 @@
         <allow-intent href="itms:*" />
         <allow-navigation href="*" />
         <allow-intent href="itms-apps:*" />
-        <preference name="BackupWebStorage" value="none" />
     </platform>
     <access origin="*" />
     <allow-navigation href="*" />
     <allow-intent href="*" />
     <universal-links>
-        <host name="workz.page.link/qL6j" scheme="https" />
+        <host name="workz.page.link" scheme="https" />
         <host name="workz-a9334.firebaseapp.com" scheme="https">
             <path url="/__/auth/callback" />
         </host>
