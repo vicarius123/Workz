@@ -134,7 +134,7 @@ function phoneLogin(){
 function phoneAuth(phone){
   var phoneNumber = phone;
   var appVerifier = window.recaptchaVerifier;
-  app.dialog.preloader();
+  
   firebase.auth().signInWithPhoneNumber(phoneNumber, appVerifier)
   .then(function (confirmationResult) {
     window.confirmationResult = confirmationResult;

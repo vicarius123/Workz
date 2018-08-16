@@ -4,7 +4,9 @@
   "displayName": "Workz",
   "cordova": {
     "platforms": [
-      "browser"
+      "browser",
+      "android",
+      "ios"
     ],
     "plugins": {
       "cordova-plugin-dialogs": {},
