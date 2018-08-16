@@ -35,7 +35,6 @@
             <path url="/__/auth/callback" />
         </host>
     </universal-links>
-    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
     <access origin="*" />
     <allow-navigation href="*" />
     <allow-intent href="*" />
