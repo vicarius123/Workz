@@ -18,6 +18,7 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <allow-navigation href="*" />
+    <preference name="AndroidLaunchMode" value="singleTask" />
     <platform name="android">
         <resource-file src="google-services.json" target="google-services.json" />
     </platform>
