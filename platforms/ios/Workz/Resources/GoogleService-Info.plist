@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>832252248378-3fke1ofsf1lq37hud5u4b3qh79pfs3ll.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.832252248378-3fke1ofsf1lq37hud5u4b3qh79pfs3ll</string>
+	<key>API_KEY</key>
+	<string>AIzaSyArzXb2yXQdRw534Tr5j_Tits4uLrCbBjM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>832252248378</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.workz.none</string>
+	<key>PROJECT_ID</key>
+	<string>workz-a9334</string>
+	<key>STORAGE_BUCKET</key>
+	<string>workz-a9334.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:832252248378:ios:62bf5ab557d14e19</string>
+	<key>DATABASE_URL</key>
+	<string>https://workz-a9334.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "832252248378",
+    "firebase_url": "https://workz-a9334.firebaseio.com",
+    "project_id": "workz-a9334",
+    "storage_bucket": "workz-a9334.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832252248378:android:62bf5ab557d14e19",
+        "android_client_info": {
+          "package_name": "com.workz.none"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832252248378-cgtj4s5cnfodkdqeheqo27ritttu1mh1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYWc8BQmJiIwg2doGYJYbb16rujk-gfj8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="311px" height="48px" viewBox="0 0 311 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>FB</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Prototype" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Вход" transform="translate(-32.000000, -258.000000)">
+            <g id="FB" transform="translate(32.000000, 258.000000)">
+                <rect id="Rectangle" fill="#3C5193" fill-rule="nonzero" x="0" y="0" width="311" height="48" rx="24"></rect>
+                <text id="Sign-in-with-Faceboo" font-family="Circe-Regular, Circe" font-size="14" font-weight="normal" line-spacing="20" letter-spacing="-0.224" fill="#FFFFFF">
+                    <tspan x="93" y="28">Sign in with Facebook</tspan>
+                </text>
+                <path d="M42,19.5013333 L44.5070076,19.5013333 L44.5070076,17.2226667 C44.5070076,16.2173333 44.5341027,14.668 45.3155818,13.708 C46.1369904,12.6906667 47.2664273,12 49.2072904,12 C52.3702841,12 53.702221,12.4213333 53.702221,12.4213333 L53.0761821,15.896 C53.0761821,15.896 52.0308826,15.612 51.0554598,15.612 C50.0814631,15.612 49.2072904,15.94 49.2072904,16.8506667 L49.2072904,19.5013333 L53.2059533,19.5013333 L52.9278722,22.8946667 L49.2072904,22.8946667 L49.2072904,34.6813333 L44.5070076,34.6813333 L44.5070076,22.8946667 L42,22.8946667 L42,19.5013333" id="Imported-Layers" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
