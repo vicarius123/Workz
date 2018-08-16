@@ -57,6 +57,7 @@ var professions = [];
 document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady() {
+  console.log('ready');
   universalLinks.subscribe(null, function (eventData) {
   // do some work
   console.log('Did launch application from the link: ' + eventData.url);
