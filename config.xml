@@ -38,7 +38,6 @@
             <path url="/__/auth/callback" />
         </host>
     </universal-links>
-    <engine name="ios" spec="^4.5.5" />
     <plugin name="cordova-plugin-dialogs" spec="^2.0.1" />
     <plugin name="cordova-plugin-console" spec="^1.1.0" />
     <plugin name="cordova-plugin-customurlscheme" spec="^4.3.0">
@@ -51,6 +50,8 @@
     <plugin name="cordova-plugin-globalization" spec="^1.11.0" />
     <plugin name="cordova-plugin-device" spec="^2.0.2" />
     <plugin name="cordova-plugin-buildinfo" spec="^2.0.2" />
-    <engine name="browser" spec="~5.0.4" />
     <plugin name="cordova-universal-links-plugin" spec="^1.2.1" />
+    <engine name="browser" spec="^5.0.4" />
+    <engine name="ios" spec="^4.5.5" />
+    <engine name="android" spec="^7.0.0" />
 </widget>

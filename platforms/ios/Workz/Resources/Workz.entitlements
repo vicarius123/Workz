@@ -4,7 +4,7 @@
   <dict>
     <key>com.apple.developer.associated-domains</key>
     <array>
-      <string>applinks:workz.page.link/qL6j</string>
+      <string>applinks:workz.page.link</string>
       <string>applinks:workz-a9334.firebaseapp.com</string>
     </array>
   </dict>

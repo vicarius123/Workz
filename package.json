@@ -4,8 +4,9 @@
   "displayName": "Workz",
   "cordova": {
     "platforms": [
+      "browser",
       "ios",
-      "browser"
+      "android"
     ],
     "plugins": {
       "cordova-plugin-dialogs": {},
@@ -24,7 +25,7 @@
     }
   },
   "dependencies": {
-    "cordova-android": "7.0.0",
+    "cordova-android": "^7.0.0",
     "cordova-browser": "^5.0.4",
     "cordova-ios": "^4.5.5",
     "cordova-plugin-browsertab": "^0.2.0",
