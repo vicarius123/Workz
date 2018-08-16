@@ -3,41 +3,10 @@ html, body, button{
   font-size: 14px;
   font-family: Circe;
 }
-.ios .page{
-  background:#fff;
-}
+
 .wrapper{
   padding: 0 32px;
 }
 .text-center{
   text-align: center;
-}
-.btn,.dialog-buttons{
-  border-radius: 22px;
-  border: solid 2px #000000;
-  background: transparent;
-  padding: 12px 0px;
-  margin-bottom: 16px;
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-.location-diag .dialog-buttons{
-  background:#095ab8;
-  border:0px;
-  color:#fff
-}
-.fb-btn{
-  font-family: Circe;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.43;
-  letter-spacing: -0.2px;
-  color: #ffffff;
-  background-color: #3c5193;
-  text-transform: inherit;
-  border:0px;
 }

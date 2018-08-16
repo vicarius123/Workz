@@ -128,7 +128,8 @@ function phoneLogin(){
     app.dialog.confirm('Are you sure that your phone is ' + phone + '?','', function () {
       phoneAuth(phone);
     });
-  })
+  });
+
 }
 function phoneAuth(phone){
   var phoneNumber = phone;

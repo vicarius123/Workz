@@ -21,7 +21,6 @@
     <platform name="android">
         <resource-file src="google-services.json" target="google-services.json" />
         <preference name="AndroidLaunchMode" value="singleTask" />
-        <plugin name="cordova-universal-links-plugin" spec="^1.2.1" />
     </platform>
     <platform name="ios">
         <resource-file src="GoogleService-Info.plist" />
