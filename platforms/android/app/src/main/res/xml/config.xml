@@ -46,12 +46,6 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <universal-links>
-        <host name="workz.page.link/qL6j" scheme="https" />
-        <host name="workz-a9334.firebaseapp.com" scheme="https">
-            <path url="/__/auth/callback" />
-        </host>
-    </universal-links>
     <access origin="*" />
     <allow-navigation href="*" />
     <allow-intent href="*" />
@@ -60,5 +54,5 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="BackupWebStorage" value="local" />
-    <preference name="AndroidLaunchMode" value="singleTask" />
+    <preference name="AndroidLaunchMode" value="singleInstance" />
 </widget>

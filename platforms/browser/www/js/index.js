@@ -57,6 +57,10 @@ var professions = [];
 document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady() {
+  universalLinks.subscribe(null, function (eventData) {
+  // do some work
+    console.log('Did launch application from the link: ' + eventData.url);
+  });
   firebase.initializeApp(config);
   storage = firebase.storage();
   firebase.auth().useDeviceLanguage();
@@ -134,7 +138,7 @@ function phoneLogin(){
 function phoneAuth(phone){
   var phoneNumber = phone;
   var appVerifier = window.recaptchaVerifier;
-  
+
   firebase.auth().signInWithPhoneNumber(phoneNumber, appVerifier)
   .then(function (confirmationResult) {
     window.confirmationResult = confirmationResult;
