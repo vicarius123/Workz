@@ -59,8 +59,11 @@ document.addEventListener("deviceready", onDeviceReady, false);
 function onDeviceReady() {
   universalLinks.subscribe(null, function (eventData) {
   // do some work
-    console.log('Did launch application from the link: ' + eventData.url);
-  });
+  console.log('Did launch application from the link: ' + eventData.url);
+});
+universalLinks.subscribe(null, function(eventData) {
+  AddDebug('Did launch application from the link: ' + eventData.url); // NEVER CALLED.
+});
   firebase.initializeApp(config);
   storage = firebase.storage();
   firebase.auth().useDeviceLanguage();
