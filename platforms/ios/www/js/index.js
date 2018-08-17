@@ -58,13 +58,10 @@ document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady() {
   console.log('ready');
-  universalLinks.subscribe(null, function (eventData) {
-  // do some work
-    alert('Did launch application from the link: ' + eventData);
+
+  universalLinks.subscribe(null, function(eventData) {
+    AddDebug('Did launch application from the link: ' + eventData.url); // NEVER CALLED.
   });
-universalLinks.subscribe(null, function(eventData) {
-  AddDebug('Did launch application from the link: ' + eventData.url); // NEVER CALLED.
-});
   firebase.initializeApp(config);
   storage = firebase.storage();
   firebase.auth().useDeviceLanguage();
@@ -212,13 +209,23 @@ $$(document).on('page:init', '.page[data-name="step2"]', function (e) {
         value = value[0];
         if(professions.indexOf(value) === -1 ){
           professions.push(value);
-          $$('.selected-shit').append('<div>'+value+'</div>')
+          $$('.selected-shit').append('<div class="chip"><div class="chip-label">'+value+'</div></div>')
         }
       },
       closed: function(value){
         $$('#autocomplete-dropdown-all').val('');
       }
     }
+  });
+
+  var pickerDevice = app.picker.create({
+    inputEl: '#demo-picker-device',
+    cols: [
+      {
+        textAlign: 'center',
+        values: ['1 year', '1-3 years', '5+ years']
+      }
+    ]
   });
 });
 

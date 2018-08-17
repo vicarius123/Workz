@@ -28,15 +28,18 @@
             <ul>
               <li class="item-content item-input">
                 <div class="item-inner">
-                  <div class="item-title item-label">Fruit</div>
+
                   <div class="item-input-wrap">
-                    <input id="autocomplete-dropdown-all" type="text" placeholder="Fruit">
+                    <input id="autocomplete-dropdown-all" type="text" placeholder="Должность">
                   </div>
                 </div>
+
               </li>
             </ul>
+
           </div>
-          <div class="selected-shit"></div>
+          <div class="selected-shit "></div><br /><br />
+          <a class="button button-big button-round button-fill button-raised tab-link" href="#tab-2">Next</a>
         </div>
       </div>
       <div id="tab-2" class="page-content tab">
@@ -44,28 +47,55 @@
           <h1 class="text-center">Зарплата</h1>
           <div class="item-cell item-cell-shrink-3">
             <!-- Dual range slider with all the parameters passed via data- attributes -->
-            <div
-            id="price-filter"
-            class="range-slider range-slider-init color-green"
-            data-label="true"
-            data-dual="true"
-            data-min="5000"
-            data-max="500000"
-            data-step="5000"
-            data-value-left="5000"
-            data-value-right="500000"
-            ></div>
+            <br /><br />
+            <div id="price-filter" class="range-slider range-slider-init color-green" data-label="true" data-dual="true" data-min="5000" data-max="500000" data-step="5000" data-value-left="5000" data-value-right="500000" ></div>
           </div>
-
-          <div class="price-range">
+          <br /><br />
+          <div class="price-range flex">
             <div class="price-from">от <span>5000</span><br />руб.</div>
             <div class="price-to">до <span>500000</span><br />руб.</div>
           </div>
+          <br />
+          <div class="flex align-center space-between">
+            <div>
+              Полный день
+            </div>
+            <div>
+              <label class="toggle toggle-init color-green">
+                <input type="checkbox" checked>
+                <span class="toggle-icon"></span>
+              </label>
+            </div>
+          </div>
+          <br />
+          <div class="flex align-center space-between">
+            <div>
+              Частичная занятость
+            </div>
+            <div>
+              <label class="toggle toggle-init color-green">
+                <input type="checkbox">
+                <span class="toggle-icon"></span>
+              </label>
+            </div>
+          </div>
+          <br /><br />
+          <a class="button button-big button-round button-fill button-raised tab-link" href="#tab-3">Next</a>
         </div>
       </div>
       <div id="tab-3" class="page-content tab">
         <div class="block">
           <h1 class="text-center">Опыт работы</h1>
+          <p>
+            Общая продолжительность
+          </p>
+          <div class="item-content item-input">
+            <div class="item-inner row">
+              <div class="item-input-wrap button-round col-33">
+                <input type="text" placeholder="1 Year" readonly="readonly" id="demo-picker-device" class="button  button-round button-fill button-raised"/>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div id="tab-4" class="page-content tab">

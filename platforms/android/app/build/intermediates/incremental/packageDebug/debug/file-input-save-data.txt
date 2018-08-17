@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Aug 16 17:07:03 MSK 2018
+#Thu Aug 16 18:32:55 MSK 2018
 20.base=/Users/cris/Documents/new_app/Workz/platforms/android/app/build/intermediates/assets/debug
 143.base=/Users/cris/Documents/new_app/Workz/platforms/android/app/build/intermediates/assets/debug
 493.base=/Users/cris/Documents/new_app/Workz/platforms/android/app/build/intermediates/assets/debug

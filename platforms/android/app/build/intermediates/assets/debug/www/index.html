@@ -31,8 +31,6 @@ under the License.
   <link rel="stylesheet" href="css/framework7.min.css">
   <meta name="theme-color" content="#2196f3">
   <link rel="stylesheet" type="text/css" href="css/index.css" />
-  <script src="https://cdn.firebase.com/libs/firebaseui/3.3.0/firebaseui.js"></script>
-<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.3.0/firebaseui.css" />
   <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase-auth.js"></script>
@@ -64,10 +62,10 @@ under the License.
           <h1 class="text-center">Войти</h1>
           <!-- Link to another page -->
           <div class="text-center">
-            <button class="button button-big button-round button-fill" onclick="fbDoLogin();">Sign in with Facebook</button>
+            <button class="button button-big button-round button-fill button-raised" onclick="fbDoLogin();">Sign in with Facebook</button>
             <br />
 
-            <button class="button button-big button-round" onclick="phoneLogin();" id="phone_btn">По номеру телефона</button>
+            <button class="button button-big button-round button-raised" onclick="phoneLogin();" id="phone_btn">По номеру телефона</button>
 
 
           </div>

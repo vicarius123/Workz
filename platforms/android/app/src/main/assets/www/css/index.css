@@ -10,3 +10,32 @@ html, body, button{
 .text-center{
   text-align: center;
 }
+.flex{
+  display:flex;
+}
+.m-flex{
+  align-items: middle;
+}
+.price-range.flex > div {
+    text-align: center;
+}
+.price-range.flex {
+    width: 100%;
+    justify-content: space-between;
+}
+.ios .range-knob-label{
+
+        min-width: 20px;
+      height: auto;
+      line-height: 20px;
+      background: transparent;
+      border-radius: 0;
+      color: #000;
+      font-size: 20px;
+}
+.space-between{
+  justify-content: space-between;
+}
+.align-center{
+  align-items: center;
+}
